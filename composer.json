@@ -1,0 +1,31 @@
+{
+  "type": "project",
+  "config" : {
+    "vendor-dir": "content/vendor"
+  },
+  "repositories":[
+      {
+          "type":"composer",
+          "url":"https://wpackagist.org"
+      }
+  ],
+  "extra": {
+    "wordpress-install-dir": "wp",
+    "installer-paths": {
+      "content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "content/themes/{$name}/": ["type:wordpress-theme"]
+     }
+  },
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": ">=5.1",
+    "wpackagist-plugin/amazon-s3-and-cloudfront":"*",
+    "wpackagist-plugin/classic-editor":"*",
+    "wpackagist-plugin/insert-headers-and-footers":"*",
+    "wpackagist-plugin/mailchimp-for-wp":"*",
+    "wpackagist-plugin/simple-social-icons":"*",
+    "wpackagist-plugin/uk-cookie-consent":"*",
+    "wpackagist-plugin/wordpress-seo":"*",
+    "wpackagist-theme/twentytwenty":"*"
+  }
+}
