@@ -1,4 +1,4 @@
-# www.metatooth.com
+# metatooth.com/blog
 
 ## Getting Started
 
@@ -10,4 +10,5 @@ $ composer update
 ## References
 
 https://www.smashingmagazine.com/2019/03/composer-wordpress/
+
 https://roots.io/using-composer-with-wordpress/
