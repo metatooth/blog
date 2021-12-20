@@ -27,6 +27,6 @@
     "wpackagist-plugin/uk-cookie-consent":"*",
     "wpackagist-plugin/wordpress-seo":"*",
     "wpackagist-plugin/wp-easycart":"*",
-    "wpackagist-theme/twentytwenty":"*"
+    "wpackagist-theme/techup":"*"
   }
 }
