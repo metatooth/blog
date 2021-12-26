@@ -18,6 +18,7 @@
   },
   "require": {
     "ext-gd": "*",
+    "ext-mysqli": "*",
     "johnpbloch/wordpress": ">=5.8",
     "wp-cli/wp-cli": ">=2.5.0",
     "wpackagist-plugin/amazon-s3-and-cloudfront":"*",
