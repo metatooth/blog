@@ -19,7 +19,7 @@
  */
 
  // Load Composer’s autoloader
-require_once (__DIR__.'/content/vendor/autoload.php');
+require_once (__DIR__.'/vendor/autoload.php');
 
 // Move the location of the content dir
 define('WP_CONTENT_DIR', dirname(__FILE__).'/content');
