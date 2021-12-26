@@ -1,5 +1,8 @@
 {
   "type": "project",
+  "config": {
+    "preferred-install": "dist"
+  },
   "repositories":[
       {
           "type":"composer",
