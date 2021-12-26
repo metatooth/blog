@@ -1,8 +1,5 @@
 {
   "type": "project",
-  "config" : {
-    "vendor-dir": "content/vendor"
-  },
   "repositories":[
       {
           "type":"composer",
@@ -10,13 +7,10 @@
       }
   ],
   "extra": {
-    "wordpress-install-dir": "wp",
-    "installer-paths": {
-      "content/plugins/{$name}/": ["type:wordpress-plugin"],
-      "content/themes/{$name}/": ["type:wordpress-theme"]
-     }
+    "wordpress-install-dir": "wp"
   },
   "require": {
+    "php": ">=8.0",
     "ext-gd": "*",
     "ext-mysqli": "*",
     "johnpbloch/wordpress-core": ">=5.8",
