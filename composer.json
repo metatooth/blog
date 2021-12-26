@@ -1,7 +1,8 @@
 {
   "type": "project",
   "config": {
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "vendor-dir": "wp-content/vendor"
   },
   "repositories":[
       {
@@ -27,11 +28,7 @@
     "wpackagist-theme/techup":"*"
   },
   "extra": {
-    "installer-paths": {
-      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "web/app/themes/{$name}/": ["type:wordpress-theme"]
-    },
-    "wordpress-install-dir": "web/wp"
+    "wordpress-install-dir": "wp"
   },
   "scripts": {
     "wordpress-setup-core-install": "wp core install --skip-email"
