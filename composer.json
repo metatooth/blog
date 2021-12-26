@@ -19,7 +19,7 @@
   "require": {
     "ext-gd": "*",
     "ext-mysqli": "*",
-    "johnpbloch/wordpress": ">=5.8",
+    "johnpbloch/wordpress-core": ">=5.8",
     "wp-cli/wp-cli": ">=2.5.0",
     "wpackagist-plugin/amazon-s3-and-cloudfront":"*",
     "wpackagist-plugin/classic-editor":"*",
@@ -29,6 +29,7 @@
     "wpackagist-plugin/uk-cookie-consent":"*",
     "wpackagist-plugin/wordpress-seo":"*",
     "wpackagist-plugin/wp-easycart":"*",
+    "wpackagist-theme/twentytwentyone":"*",
     "wpackagist-theme/techup":"*"
   },
   "scripts": {
