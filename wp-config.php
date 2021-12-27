@@ -30,7 +30,7 @@ define( 'AS3CF_SETTINGS', serialize( array(
     'secret-access-key' => getenv('AWS_SECRET_ACCESS_KEY'),
 ) ) );
 
-$url = parse_url(getenv('CLEARDB_DATABASE_URL'));
+$url = parse_url(getenv('JAWSDB_MARIA_URL'));
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
