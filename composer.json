@@ -1,36 +1,9 @@
 {
-  "type": "project",
-  "config": {
-    "preferred-install": "dist",
-    "vendor-dir": "wp-content/vendor"
-  },
-  "repositories":[
-      {
-          "type":"composer",
-          "url":"https://wpackagist.org"
-      }
-  ],
   "require": {
-    "php": ">=8.0",
-    "ext-gd": "*",
-    "ext-mysqli": "*",
-    "johnpbloch/wordpress-core": ">=5.8",
-    "wp-cli/wp-cli": ">=2.5.0",
-    "wpackagist-plugin/amazon-s3-and-cloudfront":"*",
-    "wpackagist-plugin/classic-editor":"*",
-    "wpackagist-plugin/insert-headers-and-footers":"*",
-    "wpackagist-plugin/mailchimp-for-wp":"*",
-    "wpackagist-plugin/simple-social-icons":"*",
-    "wpackagist-plugin/uk-cookie-consent":"*",
-    "wpackagist-plugin/wordpress-seo":"*",
-    "wpackagist-plugin/wp-easycart":"*",
-    "wpackagist-theme/twentytwentyone":"*",
-    "wpackagist-theme/techup":"*"
+    "php": ">=8",
+    "johnpbloch/wordpress": "5.8.2"
   },
   "extra": {
     "wordpress-install-dir": "wp"
-  },
-  "scripts": {
-    "wordpress-setup-core-install": "wp core install --skip-email"
   }
 }
