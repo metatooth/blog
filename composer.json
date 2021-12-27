@@ -1,7 +1,8 @@
 {
   "require": {
     "php": ">=8",
-    "johnpbloch/wordpress": "5.8.2"
+    "johnpbloch/wordpress": "5.8.2",
+    "wp-cli/wp-cli": "*"
   },
   "extra": {
     "wordpress-install-dir": "wp"
