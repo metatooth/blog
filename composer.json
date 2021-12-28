@@ -1,6 +1,5 @@
 {
   "require": {
-    "php": "7.4.*",
     "johnpbloch/wordpress": "5.8.2",
     "wp-cli/wp-cli": "*"
   },
