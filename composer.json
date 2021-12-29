@@ -1,4 +1,7 @@
 {
+  "config" : {
+    "vendor-dir": "content/vendor"
+  },
   "repositories":[
       {
           "type":"composer",
@@ -23,13 +26,8 @@
   "extra": {
     "wordpress-install-dir": "wp",
     "installer-paths": {
-      "wp/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
-      "wp/wp-content/themes/{$name}/": ["type:wordpress-theme"]
-    }
-  },
-  "config": {
-    "allow-plugins": {
-      "johnpbloch/wordpress-core-installer": true
+      "content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "content/themes/{$name}/": ["type:wordpress-theme"]
     }
   }
 }

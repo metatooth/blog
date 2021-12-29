@@ -19,10 +19,10 @@
  */
 
  // Load Composer’s autoloader
-require_once (__DIR__.'/vendor/autoload.php');
+require_once (__DIR__.'/content/vendor/autoload.php');
 
 // Move the location of the content dir
-define('WP_CONTENT_DIR', dirname(__FILE__).'/wp/wp-content');
+define('WP_CONTENT_DIR', dirname(__FILE__).'/content');
 
 define( 'AS3CF_SETTINGS', serialize( array(
     'provider' => 'aws',
