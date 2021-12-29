@@ -21,7 +21,11 @@
     "wpackagist-theme/techup":"*"
   },
   "extra": {
-    "wordpress-install-dir": "wp"
+    "wordpress-install-dir": "wp",
+    "installer-paths": {
+      "content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "content/themes/{$name}/": ["type:wordpress-theme"]
+    }
   },
   "config": {
     "allow-plugins": {
