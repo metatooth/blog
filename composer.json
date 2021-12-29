@@ -1,9 +1,24 @@
 {
+  "repositories":[
+      {
+          "type":"composer",
+          "url":"https://wpackagist.org"
+      }
+  ],
   "require": {
     "php": "7.4.27",
     "ext-gd": "*",
     "johnpbloch/wordpress": "5.3.10",
-    "wp-cli/wp-cli": "*"
+    "wp-cli/wp-cli": "*",
+    "wpackagist-plugin/amazon-s3-and-cloudfront":"*",
+    "wpackagist-plugin/classic-editor":"*",
+    "wpackagist-plugin/insert-headers-and-footers":"*",
+    "wpackagist-plugin/mailchimp-for-wp":"*",
+    "wpackagist-plugin/simple-social-icons":"*",
+    "wpackagist-plugin/uk-cookie-consent":"*",
+    "wpackagist-plugin/wordpress-seo":"*",
+    "wpackagist-theme/twentytwentyone":"*",
+    "wpackagist-theme/techup":"*"
   },
   "extra": {
     "wordpress-install-dir": "wp"
